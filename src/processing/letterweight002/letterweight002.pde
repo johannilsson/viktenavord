@@ -29,9 +29,9 @@ void setup() {
   rows = 15;
   cols = 8;
 
-  //println(PFont.list());
+  println(PFont.list());
   // A no serif font will prob be better.
-  font = createFont("Serif", 20);
+  font = createFont("Helvetica-Light", 20); // Helvetica-Light
   textFont(font);
   reset();
 
@@ -58,13 +58,13 @@ void draw() {
 
 void displayLargeText(float scale) {
   pushMatrix();  
-  translate(50, 50);
+  translate(10, 10);
   textAlign(LEFT, TOP);
   fill(255);
   textSize(15 * scale);
   text(evaluator.getText()
     + (frameCount / 20 % 2 == 0 ? "|" : "")
-    , 10, 10, 400, 400);
+    , 10, 10, 450, 390);
 
   /*
   float w = textWidth(evaluator.getText());
@@ -169,7 +169,9 @@ void keyPressed() {
   evaluator.process(key);
 
   int weight = evaluator.calculateWeight();
-  println("weight " + weight);
+  if (debug) {
+    println("weight " + weight);
+  }
   if (serial != null) {
     try {
       serial.write(weight);
@@ -184,8 +186,8 @@ void storeMessage() {
   output = createWriter("export/message" + millis()+ ".txt");
   output.println(evaluator.toJson());
   output.println(evaluator.toHistoryJson());
-  output.flush(); // Writes the remaining data to the file
-  output.close(); // Finishes the file
+  output.flush();
+  output.close();
 }
 
 

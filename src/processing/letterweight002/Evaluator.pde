@@ -76,7 +76,9 @@ class Evaluator {
           //history[text.length() - 1] = millis() - prevTime;
           prevTime = millis();
   
-          println(history[position]);
+          if (debug) {
+            println(history[position]);
+          }
         }
       }
     }

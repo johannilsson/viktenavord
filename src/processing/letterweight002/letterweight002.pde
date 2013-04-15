@@ -1,3 +1,10 @@
+/*
+The Weight of Words
+
+https://github.com/johannilsson/viktenavord
+Johan Nilsson johan@markupartist.com
+*/
+
 import processing.serial.*;
 import org.json.*;
 

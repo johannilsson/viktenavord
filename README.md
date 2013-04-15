@@ -20,6 +20,8 @@ This installation was created during [Art Hack Day](http://arthackday.net/stockh
 
 ### License
 
+Concept and development by Johan Nilsson and Anders Mellbratt.
+
 Copyright 2013 Johan Nilsson <http://www.markupartist.com>
 
 Distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).

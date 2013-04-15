@@ -6,7 +6,7 @@ Ever written a text that you edit over and over again? Tried your best to make i
 
 The Weight of Words analyses the actions taken while a message is being typed. These actions is aggregated and translated into a physical weight in grams to represent how heavy a message got during composition.
 
-The installation allowed visitors to weigh different messages. The message were being projected while typed on a scale to create a pressure that caused the digital display of the scale to increase and reveal the weight of the message.
+The installation allowed visitors to type their own text to reveal the weight of it. The text were projected while typed on a scale to create a pressure that caused the digital display to increase and show the weight of the message.
 
 This installation was created during [Art Hack Day](http://arthackday.net/stockholm/) and showed at the flash exhibit at Bonniers Konsthall April 13, 2013. During the exhibit over 300 messages got their weight determined.
 

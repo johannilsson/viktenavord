@@ -10,13 +10,15 @@ The installation allowed visitors to type their own text to reveal the weight of
 
 This installation was created during [Art Hack Day](http://arthackday.net/stockholm/) and showed at the flash exhibit at Bonniers Konsthall April 13, 2013. During the exhibit over 300 messages got their weight determined.
 
+<img src="resources/bonniers.jpg" width="500">
+
 ![The Weight of Words](resources/scale.jpg "The Weight of Words")
 
 ## Tools
 
 **Processing** Text editor and text analyse.
 
-**Arduino** Control of a 7 segment display. 
+**Arduino** Control of a 7 segment display.
 
 ### License
 
